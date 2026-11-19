@@ -1,0 +1,25 @@
+# ===== 构建输出（绝对不能提交）=====
+x64/
+x86/
+Debug/
+Release/
+*.exe
+*.obj
+*.pdb
+*.ilk
+*.idb
+*.exp
+*.tlog
+*.log
+*.lastbuildstate
+
+# ===== Visual Studio 本地用户配置 =====
+# 注意：xxx.vcxproj 和 xxx.vcxproj.filters 要提交（项目定义）
+#       但 xxx.vcxproj.user 不提交（含你本机的个人路径）
+*.vcxproj.user
+.vs/
+
+# ===== 系统文件 =====
+Thumbs.db
+.DS_Store
+desktop.ini
